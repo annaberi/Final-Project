@@ -139,9 +139,12 @@ a {
 
 .h-1 {
   background-color: rgb(78, 73, 73);
-  height: 2500px;
+  height: 1000px;
 }
 .h-1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
@@ -161,13 +164,13 @@ header {
 }
 
 nav {
-  width: 500px;
+  width: 430px;
 }
 
 ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   color: #ffffff;
   font-size: 13px;
@@ -175,4 +178,97 @@ ul {
 
 li a {
   color: rgb(242, 101, 34);
+}
+
+.card1 {
+  display: block;
+  align-items: center;
+  padding: 73px;
+}
+.card1 .sleek {
+  font-size: 45px;
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 203px;
+  height: 82px;
+  margin-bottom: 35px;
+}
+.card1 .lorem1 {
+  font-size: 15px;
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 389px;
+  height: 39px;
+  margin-bottom: 35px;
+}
+.card1 .fa-dash {
+  margin-right: 69px;
+  font-size: 20px;
+  background-color: #ffffff;
+}
+.card1 .arrow {
+  display: block;
+  margin-left: 164px;
+}
+
+.orangeCard {
+  display: flex;
+}
+
+.orangeTextBox {
+  display: inline-block;
+  background-color: #f26522;
+  width: 390px;
+  height: 777px;
+}
+
+.bright {
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 35px;
+  padding: 74px 104px 15px 48px;
+}
+
+.lorem2 {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0px 104px 35px 48px;
+}
+
+.lorem3 {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0px 104px 35px 48px;
+}
+
+.mountWithText {
+  height: 777px;
+  width: 780;
+  position: relative;
+}
+
+.mount {
+  width: 780px;
+  height: 390px;
+  background-color: #f26522;
+}
+
+.finaly {
+  margin-left: 55px;
+  font-size: 35px;
+  color: #3a4d69;
+  box-sizing: content-box;
+  margin-top: 65px;
+}
+
+.lorem4 {
+  margin-left: 55px;
+  margin-top: 27px;
+  font-size: 14px;
+  color: #83969f;
+}
+
+.bird {
+  margin-left: 55px;
+  margin-top: 54px;
 }/*# sourceMappingURL=global.css.map */

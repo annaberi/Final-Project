@@ -213,10 +213,24 @@ li a {
 
 .orangeCard {
   display: flex;
+  justify-content: flex-end;
+  margin-left: 570px;
+  margin-top: -388px;
+}
+
+.warrow {
+  width: 54px;
+  height: 54px;
+  margin-right: 10px;
+}
+
+.oarrow {
+  width: 54px;
+  height: 54px;
+  margin-right: 70px;
 }
 
 .orangeTextBox {
-  display: inline-block;
   background-color: #f26522;
   width: 390px;
   height: 777px;
@@ -259,6 +273,7 @@ li a {
   color: #3a4d69;
   box-sizing: content-box;
   margin-top: 65px;
+  padding-right: 400px;
 }
 
 .lorem4 {
@@ -266,9 +281,17 @@ li a {
   margin-top: 27px;
   font-size: 14px;
   color: #83969f;
+  padding-right: 200px;
 }
 
 .bird {
+  display: inline;
   margin-left: 55px;
-  margin-top: 54px;
+  margin-top: 150px;
+}
+
+.twitt {
+  display: inline;
+  font-size: 12px;
+  color: #cfcfcf;
 }/*# sourceMappingURL=global.css.map */

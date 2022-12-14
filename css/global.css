@@ -216,6 +216,7 @@ li a {
   justify-content: flex-end;
   margin-left: 570px;
   margin-top: -388px;
+  margin-bottom: 100px;
 }
 
 .warrow {
@@ -294,4 +295,33 @@ li a {
   display: inline;
   font-size: 12px;
   color: #cfcfcf;
+}
+
+.melbourne {
+  width: 1178px;
+  height: auto;
+  font-size: 35px;
+  color: #3a4d69;
+  display: block;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 36px;
+}
+
+.wrapText {
+  width: 1178px;
+  height: 415px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lorem5 {
+  font-size: 18px;
+  color: #3a4d69;
+}
+
+.lorem6 {
+  font-size: 18px;
+  color: #3a4d69;
 }/*# sourceMappingURL=global.css.map */

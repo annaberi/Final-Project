@@ -52,7 +52,7 @@ li a {
   }
   .lorem1 {
     font-size: 15px;
-    color: #ffffff;
+    color: $myColor;
     box-sizing: border-box;
     width: 389px;
     height: 39px;
@@ -178,7 +178,68 @@ li a {
 //end of section 2
 
 // ********************************************** ak aklia mesame section
-// *********************************************** ak aklia form
+
+// FORM
+.form {
+  input {
+    .input-box {
+      .input-box {
+        max-width: 350px;
+        width: 100%;
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+.forms-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.textarea-box {
+  max-width: 750px;
+  width: 100%;
+  height: 290px;
+  margin-right: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 2px solid lightgrey;
+}
+textarea::placeholder {
+  color: rgb(17, 234, 60);
+}
+
+// .input-box {
+//   max-width: 350px;
+//   width: 100%;
+//   height: 290px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
+
+.input-box > input {
+  width: 100%;
+  height: 60px;
+  padding: 12px 20px;
+  border: 2px solid grey;
+  cursor: pointer;
+}
+
+.input-box > input::placeholder {
+  color: lightgrey;
+}
+// END OF FORM
 
 // section 5 Start
 
@@ -193,7 +254,7 @@ li a {
   height: 777px;
 }
 .nice {
-  font-size: 45px;
+  font-size: 100px;
   color: #ffffff;
   margin-bottom: 35px;
   padding: 74px 104px 15px 48px;

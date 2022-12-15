@@ -166,15 +166,72 @@ li a {
   height: 415px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .lorem5 {
-  font-size: 18px;
-  color: #3a4d69;
+  @include myLorem;
 }
 .lorem6 {
-  font-size: 18px;
-  color: #3a4d69;
+  @include myLorem;
 }
 
 //end of section 2
+
+// ********************************************** ak aklia mesame section
+// *********************************************** ak aklia form
+
+// section 5 Start
+
+.s-4 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.orangeTextBox2 {
+  background-color: #f26522;
+  width: 390px;
+  height: 777px;
+}
+.nice {
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 35px;
+  padding: 74px 104px 15px 48px;
+}
+.lorem7 {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0px 104px 35px 48px;
+}
+
+.lorem8 {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0px 104px 35px 48px;
+}
+
+.mountWithText2 {
+  height: 777px;
+  width: 780;
+  position: relative;
+}
+.mount2 {
+  width: 780px;
+  height: 390px;
+  background-color: #f26522;
+}
+.theend {
+  margin-left: 55px;
+  font-size: 35px;
+  color: #3a4d69;
+  box-sizing: content-box;
+  margin-top: 65px;
+  padding-right: 400px;
+}
+.lorem9 {
+  margin-left: 55px;
+  margin-top: 27px;
+  font-size: 14px;
+  color: #83969f;
+  padding-right: 200px;
+}

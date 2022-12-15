@@ -259,7 +259,6 @@ li a {
 .mountWithText {
   height: 777px;
   width: 780;
-  position: relative;
 }
 
 .mount {
@@ -313,15 +312,149 @@ li a {
   height: 415px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .lorem5 {
-  font-size: 18px;
   color: #3a4d69;
+  font-size: 18px;
 }
 
 .lorem6 {
-  font-size: 18px;
   color: #3a4d69;
+  font-size: 18px;
+}
+
+.form {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(50, 51, 57);
+}
+
+.forms-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.textarea-box {
+  max-width: 867px;
+  width: 100%;
+  height: 290px;
+  margin-right: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  background-color: rgb(50, 51, 57);
+  padding: 20px;
+  border: 2px solid #ffffff;
+}
+
+textarea::placeholder {
+  color: rgb(242, 101, 34);
+}
+
+.input-box {
+  max-width: 867px;
+  width: 100%;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-box > input {
+  width: 100%;
+  height: 60px;
+  padding: 12px 20px;
+  border: 0.2px solid #83969f;
+  cursor: pointer;
+}
+
+.signUp {
+  background-color: rgb(50, 51, 57);
+  color: #ffffff;
+}
+
+input:focus {
+  color: rgb(242, 101, 34);
+}
+
+.input-box > input::placeholder {
+  color: #83969f;
+}
+
+.build2 {
+  display: block;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.orangeBox2 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -250px;
+  margin-bottom: 100px;
+}
+
+.orangeTextBox2 {
+  background-color: #f26522;
+  width: 390px;
+  height: 777px;
+}
+
+.nice {
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 35px;
+  padding: 74px 104px 15px 48px;
+}
+
+.lorem7 {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0px 104px 35px 48px;
+}
+
+.lorem8 {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0px 104px 35px 48px;
+}
+
+.mountWithText2 {
+  height: 777px;
+  width: 780px;
+}
+
+.mount2 {
+  width: 780px;
+  height: 390px;
+}
+
+.theend {
+  margin-left: 55px;
+  font-size: 35px;
+  color: #3a4d69;
+  box-sizing: content-box;
+  margin-top: 65px;
+  padding-right: 400px;
+}
+
+.lorem9 {
+  margin-left: 55px;
+  margin-top: 27px;
+  font-size: 14px;
+  color: #83969f;
+  padding-right: 200px;
 }/*# sourceMappingURL=global.css.map */

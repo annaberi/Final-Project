@@ -1,0 +1,29 @@
+.footerList {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px;
+  border-collapse: collapse;
+  width: 100%;
+}
+.footerList td {
+  color: $myColor;
+}
+.footerList td,
+.footerList th {
+  padding: 15px;
+}
+
+.footerList tr:nth-child(even) {
+}
+
+.footerList th:hover {
+  background-color: $myColor2;
+  box-sizing: content-box;
+}
+
+.footerList th {
+  padding-bottom: 20px;
+  text-align: left;
+  color: $myColor4;
+}

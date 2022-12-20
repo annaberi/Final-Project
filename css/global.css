@@ -190,6 +190,10 @@ p {
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .myheader {
   display: flex;
   flex-direction: row;
@@ -217,7 +221,7 @@ ul {
 }
 
 li a {
-  color: rgb(242, 101, 34);
+  color: #ffffff;
 }
 
 .card1 {
@@ -319,15 +323,17 @@ li a {
 .lorem4 {
   margin-left: 55px;
   margin-top: 27px;
+  margin-bottom: 150px;
   font-size: 14px;
   color: #83969f;
   padding-right: 200px;
 }
 
-.bird {
+.fa-twitter {
+  font-size: 25px;
   display: inline;
   margin-left: 55px;
-  margin-top: 150px;
+  color: #cfcfcf;
 }
 
 .twitt {
@@ -363,6 +369,15 @@ li a {
 .lorem6 {
   color: #3a4d69;
   font-size: 18px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 36px;
+  color: #ffffff;
 }
 
 .form {

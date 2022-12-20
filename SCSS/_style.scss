@@ -10,6 +10,9 @@
     margin: 0 auto;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 .myheader {
   display: flex;
   flex-direction: row;
@@ -34,7 +37,7 @@ ul {
 }
 
 li a {
-  color: rgba(242, 101, 34, 1);
+  color: $myColor;
 }
 
 .card1 {
@@ -44,7 +47,7 @@ li a {
 
   .sleek {
     font-size: 45px;
-    color: #ffffff;
+    color: $myColor;
     box-sizing: border-box;
     width: 203px;
     height: 82px;
@@ -133,14 +136,16 @@ li a {
 .lorem4 {
   margin-left: 55px;
   margin-top: 27px;
+  margin-bottom: 150px;
   font-size: 14px;
   color: #83969f;
   padding-right: 200px;
 }
-.bird {
+.fa-twitter {
+  font-size: 25px;
   display: inline;
   margin-left: 55px;
-  margin-top: 150px;
+  color: #cfcfcf;
 }
 .twitt {
   display: inline;
@@ -176,9 +181,16 @@ li a {
 
 //end of section 2
 
-// ********************************************** ak aklia mesame section
-
 // FORM
+.info-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 36px;
+  color: $myColor;
+}
+
 .form {
   max-width: 1600px;
   width: 100%;

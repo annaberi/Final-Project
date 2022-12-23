@@ -1,15 +1,15 @@
-.h-1 {
-  background-color: rgb(78, 73, 73);
-  height: 1000px;
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 1600px;
-    width: 100%;
-    margin: 0 auto;
-  }
+// .h-1 {
+//   background-color: rgb(78, 73, 73);
+//   height: 1000px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -64,11 +64,6 @@ li a {
     width: 389px;
     height: 39px;
     margin-bottom: 35px;
-  }
-  .fa-dash {
-    margin-right: 69px;
-    font-size: 20px;
-    background-color: $myColor;
   }
   .arrow {
     display: block;
@@ -165,7 +160,7 @@ li a {
   margin-bottom: 36px;
 }
 .wrapText {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
   text-align: center;
@@ -275,18 +270,18 @@ input:focus {
 }
 .nice {
   font-size: 45px;
-  color: #ffffff;
+  color: $myColor;
   margin-bottom: 35px;
   padding: 74px 104px 15px 48px;
 }
 .lorem7 {
-  color: #ffffff;
+  color: $myColor;
   font-size: 15px;
   padding: 0px 104px 35px 48px;
 }
 
 .lorem8 {
-  color: #ffffff;
+  color: $myColor;
   font-size: 15px;
   padding: 0px 104px 35px 48px;
 }

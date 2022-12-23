@@ -148,6 +148,32 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+@media (max-width: 1180px) {
+  .container {
+    width: 90%;
+  }
+  .forms-box {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
+  .forms-box {
+    justify-content: center;
+  }
+  .wrapText {
+    column-count: 1;
+  }
+  nav {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    font-weight: 900px;
+  }
+}
 .footerList {
   display: flex;
   justify-content: space-evenly;
@@ -222,6 +248,12 @@ ul {
 
 li a {
   color: #ffffff;
+}
+
+.fa-bars {
+  font-size: 20px;
+  color: #ffffff;
+  display: none;
 }
 
 .card1 {
@@ -338,7 +370,7 @@ li a {
 }
 
 .melbourne {
-  width: 1178px;
+  max-width: 80%;
   height: auto;
   font-size: 35px;
   color: #3a4d69;
@@ -349,9 +381,11 @@ li a {
 }
 
 .wrapText {
-  width: 1178px;
-  height: 415px;
+  max-width: 80%;
+  height: auto;
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 200px;
   column-count: 2;
   column-gap: 30px;
 }

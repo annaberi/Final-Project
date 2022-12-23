@@ -38,6 +38,11 @@ ul {
 li a {
   color: $myColor;
 }
+.fa-bars {
+  font-size: 20px;
+  color: $myColor;
+  display: none;
+}
 
 .card1 {
   display: block;
@@ -150,7 +155,7 @@ li a {
 
 .melbourne {
   // border: 2px solid;
-  width: 1178px;
+  max-width: 80%;
   height: auto;
   font-size: 35px;
   color: $myColor3;
@@ -160,9 +165,11 @@ li a {
   margin-bottom: 36px;
 }
 .wrapText {
-  width: 1178px;
-  height: 415px;
+  max-width: 80%;
+  height: auto;
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 200px;
   column-count: 2;
   column-gap: 30px;
 }
